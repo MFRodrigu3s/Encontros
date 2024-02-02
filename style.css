@@ -30,7 +30,7 @@ nav {
 }
 
 #section1 {
-    margin-top: 30px;
+    margin-top: 45px;
 }
 
 #greetings-div {
@@ -48,7 +48,7 @@ nav {
 }
 
 #greetings__subtitle {
-    margin-top: 15px;
+    margin-top: 25px;
     margin-bottom: 15px;
     font-size: 18px;
 }
@@ -63,32 +63,8 @@ nav {
 }
 
 #greetings__lastMensage {
-    margin-top: 20px;
-    font-size: 25px;
-}
-
-#section2 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    gap: 40px;
     margin-top: 30px;
-    margin-bottom: 40px;
-}
-
-#section2__title {
-    color: var(--color2);
-}
-
-.options__button {
-    padding: 25px 50px;
-    background-color: var(--color1);
-    color: #fff;
-    font-size: 14px;
-    border: 5px solid var(--color2);
-    border-radius: 8px;
-    font-weight: 600;
+    font-size: 25px;
 }
 
 #section3 {
@@ -99,7 +75,7 @@ nav {
 }
 
 #section3 span {
-    margin-top: 20px;
+    margin-top: 30px;
     width: 85%;
     text-align: center;
 }
