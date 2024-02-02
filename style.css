@@ -1,0 +1,136 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav {
+    background-color: var(--color1);
+    width: 100vw;
+}
+
+#nav__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 0 35px;
+}
+
+.nav__link {
+    color: #fff;
+    text-decoration: none;
+}
+
+#logo-img {
+    width: 80px;
+}
+
+#section1 {
+    margin-top: 30px;
+}
+
+#greetings-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#greetings__title {
+    text-align: center;
+    color: var(--color2);
+    border-bottom: 1px solid var(--color5);
+    width: 50%;
+    font-size: 40px;
+}
+
+#greetings__subtitle {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+#greetings__texts {
+    text-align: justify;
+    padding: 0 20px;
+    text-indent: 35px;
+    font-size: 20px;
+}
+
+#greetings__lastMensage {
+    margin-top: 15px;
+    font-size: 25px;
+}
+
+#section2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+#section2__title {
+    color: var(--color2);
+}
+
+.options__button {
+    padding: 25px 50px;
+    background-color: var(--color1);
+    color: #fff;
+    font-size: 14px;
+    border: 5px solid var(--color2);
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+#section3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#section3 span {
+    width: 85%;
+    text-align: center;
+}
+
+#musics__div {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 0 15px;
+}
+
+#musics__div a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.music__button {
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    background-color: var(--color1);
+    border: 3px solid var(--color2);
+}
+
+.button__img {
+    width: 80px;
+}
+
+footer {
+    margin-top: 60px;
+    text-align: center;
+    width: 100vw;
+    padding: 25px 0;
+    background-color: var(--color1);
+    color: #fff;
+}
